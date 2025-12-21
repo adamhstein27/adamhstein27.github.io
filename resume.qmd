@@ -1,0 +1,46 @@
+---
+title: "Resume"
+---
+
+## Adam Stein
+
+📍 Washington D.C. 
+📧 adamhstein@gmail.com
+🔗 GitHub: https://github.com/adamhstein27  
+
+---
+
+### Experience
+
+**Data Scientist — Health Insurance**  
+*Dates*
+
+- Worked on applied analytics and modeling initiatives
+- Collaborated with cross-functional stakeholders
+
+**Consultant — Big 4 Healthcare Practice**  
+*Dates*
+
+- Supported healthcare clients with data-driven insights
+- Built analytical models and presentations
+
+---
+
+### Education
+
+**M.S. in Data Science and Analytics**  
+*Georgetown University*
+*GPA: 4.0*
+
+**B.S. in Chemical Engineering**  
+*Washington University in St. Louis*
+*GPA: 3.98*
+
+---
+
+### Skills
+
+- **Languages:** Python, R, SQL  
+- **ML:** Scikit-learn, PyTorch, FAISS, XGBoost  
+- **NLP:** Transformers, embeddings, retrieval (BM25, BERT)  
+- **Tools:** Git, Docker, Quarto

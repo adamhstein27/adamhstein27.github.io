@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Adam Stein"
+  navbar:
+    left:
+      - text: About
+        href: index.qmd
+      - text: Resume
+        href: resume.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+
+
+

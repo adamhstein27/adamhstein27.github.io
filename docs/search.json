@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "📍 Washington D.C. 📧 adamhstein@gmail.com 🔗 GitHub: https://github.com/adamhstein27\n\n\n\nData Scientist — Health Insurance\nDates\n\nWorked on applied analytics and modeling initiatives\nCollaborated with cross-functional stakeholders\n\nConsultant — Big 4 Healthcare Practice\nDates\n\nSupported healthcare clients with data-driven insights\nBuilt analytical models and presentations\n\n\n\n\n\nM.S. in Data Science and Analytics\nGeorgetown University GPA: 4.0\nB.S. in Chemical Engineering\nWashington University in St. Louis GPA: 3.98\n\n\n\n\n\nLanguages: Python, R, SQL\n\nML: Scikit-learn, PyTorch, FAISS, XGBoost\n\nNLP: Transformers, embeddings, retrieval (BM25, BERT)\n\nTools: Git, Docker, Quarto"
+  },
+  {
+    "objectID": "resume.html#adam-stein",
+    "href": "resume.html#adam-stein",
+    "title": "Resume",
+    "section": "",
+    "text": "📍 Washington D.C. 📧 adamhstein@gmail.com 🔗 GitHub: https://github.com/adamhstein27\n\n\n\nData Scientist — Health Insurance\nDates\n\nWorked on applied analytics and modeling initiatives\nCollaborated with cross-functional stakeholders\n\nConsultant — Big 4 Healthcare Practice\nDates\n\nSupported healthcare clients with data-driven insights\nBuilt analytical models and presentations\n\n\n\n\n\nM.S. in Data Science and Analytics\nGeorgetown University GPA: 4.0\nB.S. in Chemical Engineering\nWashington University in St. Louis GPA: 3.98\n\n\n\n\n\nLanguages: Python, R, SQL\n\nML: Scikit-learn, PyTorch, FAISS, XGBoost\n\nNLP: Transformers, embeddings, retrieval (BM25, BERT)\n\nTools: Git, Docker, Quarto"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a data scientist with experience in machine learning, NLP, and applied analytics, currently working in the health insurance space. I previously worked as a consultant in a Big 4 healthcare practice, where I focused on data-driven strategy and analytics.\nMy technical interests include: - Machine learning systems - Retrieval and recommender systems - Natural language processing - Applied statistics and experimentation\nThis site is a living portfolio where I document projects, experiments, and technical writeups."
+  },
+  {
+    "objectID": "about.html#hi-im-adam",
+    "href": "about.html#hi-im-adam",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a data scientist with experience in machine learning, NLP, and applied analytics, currently working in the health insurance space. I previously worked as a consultant in a Big 4 healthcare practice, where I focused on data-driven strategy and analytics.\nMy technical interests include: - Machine learning systems - Retrieval and recommender systems - Natural language processing - Applied statistics and experimentation\nThis site is a living portfolio where I document projects, experiments, and technical writeups."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Personal-site",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]
