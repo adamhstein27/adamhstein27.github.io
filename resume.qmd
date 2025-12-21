@@ -5,42 +5,52 @@ title: "Resume"
 ## Adam Stein
 
 📍 Washington D.C. 
+
 📧 adamhstein@gmail.com
+
 🔗 GitHub: https://github.com/adamhstein27  
-
----
-
-### Experience
-
-**Data Scientist — Health Insurance**  
-*Dates*
-
-- Worked on applied analytics and modeling initiatives
-- Collaborated with cross-functional stakeholders
-
-**Consultant — Big 4 Healthcare Practice**  
-*Dates*
-
-- Supported healthcare clients with data-driven insights
-- Built analytical models and presentations
 
 ---
 
 ### Education
 
 **M.S. in Data Science and Analytics**  
-*Georgetown University*
-*GPA: 4.0*
+- *Georgetown University*
+- *2024 - 2025*
+- *GPA: 4.0*
 
-**B.S. in Chemical Engineering**  
-*Washington University in St. Louis*
-*GPA: 3.98*
+**B.S. in Chemical Engineering** 
+- *Minor in Energy Engineering* 
+- *Washington University in St. Louis*
+- *2017 - 2021*
+- *GPA: 3.98*
+- *Honors: Summa Cum Laude*
+
+---
+
+### Experience
+
+**Consultant — PricewaterhouseCoopers**  
+*Aug 2021 - Aug 2024*
+
+* Led technical requirement gathering and oversaw the design and implementation of a Medicare Stars data mart and cube
+* Facilitated data mapping through SQL queries, and contributed to the design of the relational database schema composed of fourteen datasets for the data mart 
+* Managed a team of 10 developers, providing guidance on technical and business requirements, offering subject matter expertise, and conducting unit testing to ensure high-quality deliverables
+* Developed a technology strategy for a major healthcare payer, assessing technology across claims, billing, enrollment, and provider domains; defined optimal architecture to support business objectives
+* Advised a large pharmaceutical benefit manager on implementing program governance models, enhancing operational efficiencies crucial for securing capital funding
+* Coordinated the transition of an in-flight program to an agile delivery model by managing three program managers across four workstreams to help technology and product teams execute on the roadmap
+
+**Graduate Teaching Assistant — Georgetown University**  
+*May 2025 - Aug 2025*
+
+* Assisted incoming graduate students in mastering Python and R programming fundamentals through instruction, feedback, and one-on-one support in a required summer course
 
 ---
 
 ### Skills
 
-- **Languages:** Python, R, SQL  
-- **ML:** Scikit-learn, PyTorch, FAISS, XGBoost  
-- **NLP:** Transformers, embeddings, retrieval (BM25, BERT)  
-- **Tools:** Git, Docker, Quarto
+- **Programming:** Python, R, SQL, MongoDB, MATLAB, HTML, CSS, Selenium 
+- **Data Analysis and Visualization:** NumPy, Pandas, SciPy, Matplotlib, Seaborn, Plotly, NetworkX, Altair
+- **Machine learning frameworks:** PyTorch, Keras, TensorFlow, scikit-learn
+- **Miscellaneous:** Git, Github, Quarto, bash, Docker
+
