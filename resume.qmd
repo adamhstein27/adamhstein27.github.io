@@ -21,6 +21,7 @@ title: "Resume"
 - *GPA: 4.0*
 
 **B.S. in Chemical Engineering** 
+
 *Minor in Energy Engineering* 
 
 - *Washington University in St. Louis*
