@@ -6,8 +6,6 @@ website:
   title: "Adam Stein"
   navbar:
     left:
-      - text: About
-        href: about.qmd
       - text: Resume
         href: resume.qmd
       - text: Projects

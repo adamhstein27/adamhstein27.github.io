@@ -15,12 +15,14 @@ title: "Resume"
 ### Education
 
 **M.S. in Data Science and Analytics**  
+
 - *Georgetown University*
 - *2024 - 2025*
 - *GPA: 4.0*
 
 **B.S. in Chemical Engineering** 
-- *Minor in Energy Engineering* 
+*Minor in Energy Engineering* 
+
 - *Washington University in St. Louis*
 - *2017 - 2021*
 - *GPA: 3.98*

@@ -8,48 +8,62 @@ Here are some of my data science and machine learning projects. Click on the lin
 
 ## Data-Driven Discovery of Patterns in Music
 **Tech:** Python, Unsupervised Learning, Supervised Learning
-**Description:** •	Applied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres  
+
+**Description:** Applied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres  
+
 **Repo:** [GitHub Link](https://github.com/adamhstein27/music-discovery) 
 
 ---
 
 ## Statistical Patterns of AirBNB Rentals in Washington D.C.
 **Tech:** R, Hypothesis Testing 
+
 **Description:** Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques.  
+
 **Repo:** [GitHub Link](https://github.com/adamhstein27/rental-prices) 
 
 ---
 
 ## Predictive Modeling of Chronic Absenteeism in U.S. Public Schools
 **Tech:** Python, Unsupervised Learning, Supervised Learning  
+
 **Description:** Engineered predictive features to classify districts into high, medium, and low chronic absenteeism risk levels  
+
 **Repo:** [GitHub Link](https://github.com/adamhstein27/chronic-absenteeism)  
 
 ---
 
 ## Vehicle Collisions Classifications Using Neural Networks
 **Tech:** Python, PyTorch, Transformers, Yolov8  
+
 **Description:** Built a model to classify collision vs. non-collision events from dashcam videos using spatial and temporal features 
+
 **Repo:** [GitHub Link](https://github.com/adamhstein27/vehicle-collisions)  
 
 ---
 
 ## Movie Director/Actor Collaboration Analysis
 **Tech:** Python, NetworkX  
+
 **Description:** Performed network analysis of director/actor collaborations   
+
 **Repo:** [GitHub Link](https://github.com/adamhstein27/movie-collaborations)  
 
 ---
 
 ## Travel Recommender System
 **Tech:** Python, FAISS, ModernBERT, BM25  
-**Description:** Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques.  
+
+**Description:** Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques. 
+
 **Repo:** [GitHub Link](https://github.com/adamhstein27/travel-recommender)  
 
 ---
 
 ## Conspiracy Subreddit NLP Analysis
 **Tech:** Python, NLP, Transformers  
+
 **Description:** Analyzed patterns, topics, and virality in conspiracy subreddits using NLP and machine learning.  
+
 **Repo:** [GitHub Link](https://github.com/adamhstein27/conspiracy-nlp)
 
