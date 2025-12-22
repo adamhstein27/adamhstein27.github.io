@@ -11,7 +11,8 @@ Here are some of my data science and machine learning projects. Click on the lin
 
 **Description:** Applied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres  
 
-**Repo:** [GitHub Link](https://github.com/adamhstein27/music-discovery) 
+🔗 **Live Site:** [View Project](https://adamhstein27.github.io/music-discovery)  
+💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/music-discovery)
 
 ---
 
