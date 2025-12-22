@@ -35,10 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -90,6 +93,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -106,13 +110,13 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a>
   <ul class="collapse">
-  <li><a href="#data-driven-discovery-of-patterns-in-music" id="toc-data-driven-discovery-of-patterns-in-music" class="nav-link" data-scroll-target="#data-driven-discovery-of-patterns-in-music">Data-Driven Discovery of Patterns in Music</a></li>
-  <li><a href="#statistical-patterns-of-airbnb-rentals-in-washington-d.c." id="toc-statistical-patterns-of-airbnb-rentals-in-washington-d.c." class="nav-link" data-scroll-target="#statistical-patterns-of-airbnb-rentals-in-washington-d.c.">Statistical Patterns of AirBNB Rentals in Washington D.C.</a></li>
-  <li><a href="#predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools" id="toc-predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools" class="nav-link" data-scroll-target="#predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools">Predictive Modeling of Chronic Absenteeism in U.S. Public Schools</a></li>
-  <li><a href="#vehicle-collisions-classifications-using-neural-networks" id="toc-vehicle-collisions-classifications-using-neural-networks" class="nav-link" data-scroll-target="#vehicle-collisions-classifications-using-neural-networks">Vehicle Collisions Classifications Using Neural Networks</a></li>
-  <li><a href="#movie-directoractor-collaboration-analysis" id="toc-movie-directoractor-collaboration-analysis" class="nav-link" data-scroll-target="#movie-directoractor-collaboration-analysis">Movie Director/Actor Collaboration Analysis</a></li>
-  <li><a href="#travel-recommender-system" id="toc-travel-recommender-system" class="nav-link" data-scroll-target="#travel-recommender-system">Travel Recommender System</a></li>
-  <li><a href="#conspiracy-subreddit-nlp-analysis" id="toc-conspiracy-subreddit-nlp-analysis" class="nav-link" data-scroll-target="#conspiracy-subreddit-nlp-analysis">Conspiracy Subreddit NLP Analysis</a></li>
+  <li><a href="#data-driven-discovery-of-patterns-in-music" id="toc-data-driven-discovery-of-patterns-in-music" class="nav-link" data-scroll-target="#data-driven-discovery-of-patterns-in-music">🎧 Data-Driven Discovery of Patterns in Music</a></li>
+  <li><a href="#statistical-patterns-of-airbnb-rentals-in-washington-d.c." id="toc-statistical-patterns-of-airbnb-rentals-in-washington-d.c." class="nav-link" data-scroll-target="#statistical-patterns-of-airbnb-rentals-in-washington-d.c.">🏙️ Statistical Patterns of Airbnb Rentals in Washington, D.C.</a></li>
+  <li><a href="#predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools" id="toc-predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools" class="nav-link" data-scroll-target="#predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools">🏫 Predictive Modeling of Chronic Absenteeism in U.S. Public Schools</a></li>
+  <li><a href="#vehicle-collision-classification-using-neural-networks" id="toc-vehicle-collision-classification-using-neural-networks" class="nav-link" data-scroll-target="#vehicle-collision-classification-using-neural-networks">🚗 Vehicle Collision Classification Using Neural Networks</a></li>
+  <li><a href="#movie-directoractor-collaboration-analysis" id="toc-movie-directoractor-collaboration-analysis" class="nav-link" data-scroll-target="#movie-directoractor-collaboration-analysis">🎬 Movie Director–Actor Collaboration Analysis</a></li>
+  <li><a href="#travel-recommender-system" id="toc-travel-recommender-system" class="nav-link" data-scroll-target="#travel-recommender-system">✈️ Travel Recommender System</a></li>
+  <li><a href="#conspiracy-subreddit-nlp-analysis" id="toc-conspiracy-subreddit-nlp-analysis" class="nav-link" data-scroll-target="#conspiracy-subreddit-nlp-analysis">🧠 Conspiracy Subreddit NLP Analysis</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -139,58 +143,73 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="projects" class="level1">
 <h1>Projects</h1>
-<p>Here are some of my data science and machine learning projects. Click on the links to see the GitHub repos.</p>
-<section id="data-driven-discovery-of-patterns-in-music" class="level2">
-<h2 class="anchored" data-anchor-id="data-driven-discovery-of-patterns-in-music">Data-Driven Discovery of Patterns in Music</h2>
-<p><strong>Tech:</strong> Python, Unsupervised Learning, Supervised Learning</p>
-<p><strong>Description:</strong> Applied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres</p>
-<p>🔗 <strong>Live Site:</strong> <a href="https://adamhstein27.github.io/music-discovery">View Project</a><br>
-💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/music-discovery">GitHub Repo</a></p>
+<p>Here are some selected data science and machine learning projects. Each project links to source code and, where available, a live site.</p>
 <hr>
+<section id="data-driven-discovery-of-patterns-in-music" class="level3 card">
+<h3 class="anchored" data-anchor-id="data-driven-discovery-of-patterns-in-music">🎧 Data-Driven Discovery of Patterns in Music</h3>
+<p><strong>Tech:</strong> Python · Unsupervised Learning · Supervised Learning</p>
+<p>Applied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres.</p>
+<ul>
+<li>🔗 <strong>Live Site:</strong> <a href="https://adamhstein27.github.io/music-discovery">View Project</a></li>
+<li>💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/music-discovery">GitHub Repo</a></li>
+</ul>
 </section>
-<section id="statistical-patterns-of-airbnb-rentals-in-washington-d.c." class="level2">
-<h2 class="anchored" data-anchor-id="statistical-patterns-of-airbnb-rentals-in-washington-d.c.">Statistical Patterns of AirBNB Rentals in Washington D.C.</h2>
-<p><strong>Tech:</strong> R, Hypothesis Testing</p>
-<p><strong>Description:</strong> Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques.</p>
-<p><strong>Repo:</strong> <a href="https://github.com/adamhstein27/rental-prices">GitHub Link</a></p>
 <hr>
+<section id="statistical-patterns-of-airbnb-rentals-in-washington-d.c." class="level3 card">
+<h3 class="anchored" data-anchor-id="statistical-patterns-of-airbnb-rentals-in-washington-d.c.">🏙️ Statistical Patterns of Airbnb Rentals in Washington, D.C.</h3>
+<p><strong>Tech:</strong> R · Hypothesis Testing</p>
+<p>Analyzed rental pricing and neighborhood-level patterns using statistical testing and exploratory analysis.</p>
+<ul>
+<li>💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/rental-prices">GitHub Repo</a></li>
+</ul>
 </section>
-<section id="predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools" class="level2">
-<h2 class="anchored" data-anchor-id="predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools">Predictive Modeling of Chronic Absenteeism in U.S. Public Schools</h2>
-<p><strong>Tech:</strong> Python, Unsupervised Learning, Supervised Learning</p>
-<p><strong>Description:</strong> Engineered predictive features to classify districts into high, medium, and low chronic absenteeism risk levels</p>
-<p><strong>Repo:</strong> <a href="https://github.com/adamhstein27/chronic-absenteeism">GitHub Link</a></p>
 <hr>
+<section id="predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools" class="level3 card">
+<h3 class="anchored" data-anchor-id="predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools">🏫 Predictive Modeling of Chronic Absenteeism in U.S. Public Schools</h3>
+<p><strong>Tech:</strong> Python · Feature Engineering · Classification</p>
+<p>Engineered predictive features to classify school districts into high, medium, and low chronic absenteeism risk levels.</p>
+<ul>
+<li>💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/chronic-absenteeism">GitHub Repo</a></li>
+</ul>
 </section>
-<section id="vehicle-collisions-classifications-using-neural-networks" class="level2">
-<h2 class="anchored" data-anchor-id="vehicle-collisions-classifications-using-neural-networks">Vehicle Collisions Classifications Using Neural Networks</h2>
-<p><strong>Tech:</strong> Python, PyTorch, Transformers, Yolov8</p>
-<p><strong>Description:</strong> Built a model to classify collision vs.&nbsp;non-collision events from dashcam videos using spatial and temporal features</p>
-<p><strong>Repo:</strong> <a href="https://github.com/adamhstein27/vehicle-collisions">GitHub Link</a></p>
 <hr>
+<section id="vehicle-collision-classification-using-neural-networks" class="level3 card">
+<h3 class="anchored" data-anchor-id="vehicle-collision-classification-using-neural-networks">🚗 Vehicle Collision Classification Using Neural Networks</h3>
+<p><strong>Tech:</strong> Python · PyTorch · YOLOv8 · Transformers</p>
+<p>Built a neural network–based system to classify collision vs.&nbsp;non-collision events from dashcam video using spatial and temporal features.</p>
+<ul>
+<li>💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/vehicle-collisions">GitHub Repo</a></li>
+</ul>
 </section>
-<section id="movie-directoractor-collaboration-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="movie-directoractor-collaboration-analysis">Movie Director/Actor Collaboration Analysis</h2>
-<p><strong>Tech:</strong> Python, NetworkX</p>
-<p><strong>Description:</strong> Performed network analysis of director/actor collaborations</p>
-<p><strong>Repo:</strong> <a href="https://github.com/adamhstein27/movie-collaborations">GitHub Link</a></p>
 <hr>
+<section id="movie-directoractor-collaboration-analysis" class="level3 card">
+<h3 class="anchored" data-anchor-id="movie-directoractor-collaboration-analysis">🎬 Movie Director–Actor Collaboration Analysis</h3>
+<p><strong>Tech:</strong> Python · NetworkX</p>
+<p>Performed network analysis on director–actor collaboration graphs to identify structural patterns and influential relationships.</p>
+<ul>
+<li>💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/movie-collaborations">GitHub Repo</a></li>
+</ul>
 </section>
-<section id="travel-recommender-system" class="level2">
-<h2 class="anchored" data-anchor-id="travel-recommender-system">Travel Recommender System</h2>
-<p><strong>Tech:</strong> Python, FAISS, ModernBERT, BM25</p>
-<p><strong>Description:</strong> Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques.</p>
-<p><strong>Repo:</strong> <a href="https://github.com/adamhstein27/travel-recommender">GitHub Link</a></p>
 <hr>
+<section id="travel-recommender-system" class="level3 card">
+<h3 class="anchored" data-anchor-id="travel-recommender-system">✈️ Travel Recommender System</h3>
+<p><strong>Tech:</strong> Python · FAISS · ModernBERT · BM25</p>
+<p>Built a hybrid retrieval system that recommends off-the-beaten-path travel destinations using embedding-based and lexical search methods.</p>
+<ul>
+<li>💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/travel-recommender">GitHub Repo</a></li>
+</ul>
 </section>
-<section id="conspiracy-subreddit-nlp-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="conspiracy-subreddit-nlp-analysis">Conspiracy Subreddit NLP Analysis</h2>
-<p><strong>Tech:</strong> Python, NLP, Transformers</p>
-<p><strong>Description:</strong> Analyzed patterns, topics, and virality in conspiracy subreddits using NLP and machine learning.</p>
-<p><strong>Repo:</strong> <a href="https://github.com/adamhstein27/conspiracy-nlp">GitHub Link</a></p>
+<hr>
+<section id="conspiracy-subreddit-nlp-analysis" class="level3 card">
+<h3 class="anchored" data-anchor-id="conspiracy-subreddit-nlp-analysis">🧠 Conspiracy Subreddit NLP Analysis</h3>
+<p><strong>Tech:</strong> Python · NLP · Transformers</p>
+<p>Analyzed linguistic patterns, topic dynamics, and virality drivers in conspiracy-focused online communities.</p>
+<ul>
+<li>💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/conspiracy-nlp">GitHub Repo</a></li>
+</ul>
+</section>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -214,6 +233,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

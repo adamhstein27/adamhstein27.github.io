@@ -53,55 +53,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Here are some of my data science and machine learning projects. Click on the links to see the GitHub repos.\n\n\nTech: Python, Unsupervised Learning, Supervised Learning\nDescription: Applied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres\n🔗 Live Site: View Project\n💻 Code: GitHub Repo\n\n\n\n\nTech: R, Hypothesis Testing\nDescription: Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques.\nRepo: GitHub Link\n\n\n\n\nTech: Python, Unsupervised Learning, Supervised Learning\nDescription: Engineered predictive features to classify districts into high, medium, and low chronic absenteeism risk levels\nRepo: GitHub Link\n\n\n\n\nTech: Python, PyTorch, Transformers, Yolov8\nDescription: Built a model to classify collision vs. non-collision events from dashcam videos using spatial and temporal features\nRepo: GitHub Link\n\n\n\n\nTech: Python, NetworkX\nDescription: Performed network analysis of director/actor collaborations\nRepo: GitHub Link\n\n\n\n\nTech: Python, FAISS, ModernBERT, BM25\nDescription: Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques.\nRepo: GitHub Link\n\n\n\n\nTech: Python, NLP, Transformers\nDescription: Analyzed patterns, topics, and virality in conspiracy subreddits using NLP and machine learning.\nRepo: GitHub Link"
-  },
-  {
-    "objectID": "projects.html#data-driven-discovery-of-patterns-in-music",
-    "href": "projects.html#data-driven-discovery-of-patterns-in-music",
-    "title": "Projects",
-    "section": "",
-    "text": "Tech: Python, Unsupervised Learning, Supervised Learning\nDescription: Applied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres\n🔗 Live Site: View Project\n💻 Code: GitHub Repo"
-  },
-  {
-    "objectID": "projects.html#statistical-patterns-of-airbnb-rentals-in-washington-d.c.",
-    "href": "projects.html#statistical-patterns-of-airbnb-rentals-in-washington-d.c.",
-    "title": "Projects",
-    "section": "",
-    "text": "Tech: R, Hypothesis Testing\nDescription: Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques.\nRepo: GitHub Link"
-  },
-  {
-    "objectID": "projects.html#predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools",
-    "href": "projects.html#predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools",
-    "title": "Projects",
-    "section": "",
-    "text": "Tech: Python, Unsupervised Learning, Supervised Learning\nDescription: Engineered predictive features to classify districts into high, medium, and low chronic absenteeism risk levels\nRepo: GitHub Link"
-  },
-  {
-    "objectID": "projects.html#vehicle-collisions-classifications-using-neural-networks",
-    "href": "projects.html#vehicle-collisions-classifications-using-neural-networks",
-    "title": "Projects",
-    "section": "",
-    "text": "Tech: Python, PyTorch, Transformers, Yolov8\nDescription: Built a model to classify collision vs. non-collision events from dashcam videos using spatial and temporal features\nRepo: GitHub Link"
-  },
-  {
-    "objectID": "projects.html#movie-directoractor-collaboration-analysis",
-    "href": "projects.html#movie-directoractor-collaboration-analysis",
-    "title": "Projects",
-    "section": "",
-    "text": "Tech: Python, NetworkX\nDescription: Performed network analysis of director/actor collaborations\nRepo: GitHub Link"
-  },
-  {
-    "objectID": "projects.html#travel-recommender-system",
-    "href": "projects.html#travel-recommender-system",
-    "title": "Projects",
-    "section": "",
-    "text": "Tech: Python, FAISS, ModernBERT, BM25\nDescription: Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques.\nRepo: GitHub Link"
-  },
-  {
-    "objectID": "projects.html#conspiracy-subreddit-nlp-analysis",
-    "href": "projects.html#conspiracy-subreddit-nlp-analysis",
-    "title": "Projects",
-    "section": "",
-    "text": "Tech: Python, NLP, Transformers\nDescription: Analyzed patterns, topics, and virality in conspiracy subreddits using NLP and machine learning.\nRepo: GitHub Link"
+    "text": "Projects\nHere are some selected data science and machine learning projects. Each project links to source code and, where available, a live site.\n\n\n🎧 Data-Driven Discovery of Patterns in Music\nTech: Python · Unsupervised Learning · Supervised Learning\nApplied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres.\n\n🔗 Live Site: View Project\n💻 Code: GitHub Repo\n\n\n\n\n🏙️ Statistical Patterns of Airbnb Rentals in Washington, D.C.\nTech: R · Hypothesis Testing\nAnalyzed rental pricing and neighborhood-level patterns using statistical testing and exploratory analysis.\n\n💻 Code: GitHub Repo\n\n\n\n\n🏫 Predictive Modeling of Chronic Absenteeism in U.S. Public Schools\nTech: Python · Feature Engineering · Classification\nEngineered predictive features to classify school districts into high, medium, and low chronic absenteeism risk levels.\n\n💻 Code: GitHub Repo\n\n\n\n\n🚗 Vehicle Collision Classification Using Neural Networks\nTech: Python · PyTorch · YOLOv8 · Transformers\nBuilt a neural network–based system to classify collision vs. non-collision events from dashcam video using spatial and temporal features.\n\n💻 Code: GitHub Repo\n\n\n\n\n🎬 Movie Director–Actor Collaboration Analysis\nTech: Python · NetworkX\nPerformed network analysis on director–actor collaboration graphs to identify structural patterns and influential relationships.\n\n💻 Code: GitHub Repo\n\n\n\n\n✈️ Travel Recommender System\nTech: Python · FAISS · ModernBERT · BM25\nBuilt a hybrid retrieval system that recommends off-the-beaten-path travel destinations using embedding-based and lexical search methods.\n\n💻 Code: GitHub Repo\n\n\n\n\n🧠 Conspiracy Subreddit NLP Analysis\nTech: Python · NLP · Transformers\nAnalyzed linguistic patterns, topic dynamics, and virality drivers in conspiracy-focused online communities.\n\n💻 Code: GitHub Repo"
   }
 ]

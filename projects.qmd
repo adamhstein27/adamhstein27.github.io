@@ -4,67 +4,82 @@ title: "Projects"
 
 # Projects
 
-Here are some of my data science and machine learning projects. Click on the links to see the GitHub repos.
-
-## Data-Driven Discovery of Patterns in Music
-**Tech:** Python, Unsupervised Learning, Supervised Learning
-
-**Description:** Applied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres  
-
-🔗 **Live Site:** [View Project](https://adamhstein27.github.io/music-discovery)  
-💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/music-discovery)
+Here are some selected data science and machine learning projects. Each project links to source code and, where available, a live site.
 
 ---
 
-## Statistical Patterns of AirBNB Rentals in Washington D.C.
-**Tech:** R, Hypothesis Testing 
+::: {.card}
+### 🎧 Data-Driven Discovery of Patterns in Music
+**Tech:** Python · Unsupervised Learning · Supervised Learning  
 
-**Description:** Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques.  
+Applied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres.
 
-**Repo:** [GitHub Link](https://github.com/adamhstein27/rental-prices) 
-
----
-
-## Predictive Modeling of Chronic Absenteeism in U.S. Public Schools
-**Tech:** Python, Unsupervised Learning, Supervised Learning  
-
-**Description:** Engineered predictive features to classify districts into high, medium, and low chronic absenteeism risk levels  
-
-**Repo:** [GitHub Link](https://github.com/adamhstein27/chronic-absenteeism)  
+- 🔗 **Live Site:** [View Project](https://adamhstein27.github.io/music-discovery)
+- 💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/music-discovery)
+:::
 
 ---
 
-## Vehicle Collisions Classifications Using Neural Networks
-**Tech:** Python, PyTorch, Transformers, Yolov8  
+::: {.card}
+### 🏙️ Statistical Patterns of Airbnb Rentals in Washington, D.C.
+**Tech:** R · Hypothesis Testing  
 
-**Description:** Built a model to classify collision vs. non-collision events from dashcam videos using spatial and temporal features 
+Analyzed rental pricing and neighborhood-level patterns using statistical testing and exploratory analysis.
 
-**Repo:** [GitHub Link](https://github.com/adamhstein27/vehicle-collisions)  
-
----
-
-## Movie Director/Actor Collaboration Analysis
-**Tech:** Python, NetworkX  
-
-**Description:** Performed network analysis of director/actor collaborations   
-
-**Repo:** [GitHub Link](https://github.com/adamhstein27/movie-collaborations)  
+- 💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/rental-prices)
+:::
 
 ---
 
-## Travel Recommender System
-**Tech:** Python, FAISS, ModernBERT, BM25  
+::: {.card}
+### 🏫 Predictive Modeling of Chronic Absenteeism in U.S. Public Schools
+**Tech:** Python · Feature Engineering · Classification  
 
-**Description:** Built a system that recommends off-the-beaten-path travel destinations using hybrid retrieval techniques. 
+Engineered predictive features to classify school districts into high, medium, and low chronic absenteeism risk levels.
 
-**Repo:** [GitHub Link](https://github.com/adamhstein27/travel-recommender)  
+- 💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/chronic-absenteeism)
+:::
 
 ---
 
-## Conspiracy Subreddit NLP Analysis
-**Tech:** Python, NLP, Transformers  
+::: {.card}
+### 🚗 Vehicle Collision Classification Using Neural Networks
+**Tech:** Python · PyTorch · YOLOv8 · Transformers  
 
-**Description:** Analyzed patterns, topics, and virality in conspiracy subreddits using NLP and machine learning.  
+Built a neural network–based system to classify collision vs. non-collision events from dashcam video using spatial and temporal features.
 
-**Repo:** [GitHub Link](https://github.com/adamhstein27/conspiracy-nlp)
+- 💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/vehicle-collisions)
+:::
 
+---
+
+::: {.card}
+### 🎬 Movie Director–Actor Collaboration Analysis
+**Tech:** Python · NetworkX  
+
+Performed network analysis on director–actor collaboration graphs to identify structural patterns and influential relationships.
+
+- 💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/movie-collaborations)
+:::
+
+---
+
+::: {.card}
+### ✈️ Travel Recommender System
+**Tech:** Python · FAISS · ModernBERT · BM25  
+
+Built a hybrid retrieval system that recommends off-the-beaten-path travel destinations using embedding-based and lexical search methods.
+
+- 💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/travel-recommender)
+:::
+
+---
+
+::: {.card}
+### 🧠 Conspiracy Subreddit NLP Analysis
+**Tech:** Python · NLP · Transformers  
+
+Analyzed linguistic patterns, topic dynamics, and virality drivers in conspiracy-focused online communities.
+
+- 💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/conspiracy-nlp)
+:::
