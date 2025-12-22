@@ -1,45 +1,40 @@
 ---
-title: "About Me"
+title: "Adam Stein"
+toc: false
+about:
+  template: trestles
+  image: assets/photo.png
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/adam-stein-965496188/
+    - icon: github
+      text: Github
+      href: https://github.com/adamhstein27
 ---
-## Hi, I’m Adam 
-::: {.grid}
 
-::: {.g-col-6}
 Adam Stein is a recent Master's student in Data Science & Analytics at Georgetown University with a Bachelor of Science in Chemical Engineering from Washington University in St. Louis. 
 He brings three years of professional experience as a consultant (PwC), leveraging analytical and problem-solving skills to drive impactful solutions. 
-His academic and professional interests include machine learning, large language models (LLMs), and artificial intelligence, where he is passionate about exploring innovative applications and driving technological advancements.
-:::
-
-::: {.g-col-6}
-![](assets/photo.png){width=200px style="border-radius: 50%; display: block; margin: auto;"}
-:::
-
-:::
 
 ## Education
-- **Master of Science in Data Science & Analytics**  
-  *Georgetown University*  
-  - Graduation: Dec. 2025  
 
-- **Bachelor of Science in Chemical Engineering**  
-  *Washington University in St. Louis*  
-  - Graduated: May 2021
-  - GPA: 3.98
-  - Honors: Summa Cum Laude  
-
-## Work Experience
-- **Management Consultant**  
-  PricewaterhouseCoopers  
-  *Dates*: Aug. 2021 – Aug. 2024  
-  - Consulted on strategic projects in healthcare 
-  - Applied data-driven approaches to problem-solving and client engagement 
-  - Delivered actionable insights to optimize operations and drive efficiencies
-
-## Technical Skills
-- **Programming:** Python, R, SQL, MongoDB, MATLAB, HTML, CSS, Selenium 
-- **Data Analysis and Visualization:** NumPy, Pandas, SciPy, Matplotlib, Seaborn, Plotly, NetworkX, Altair
-- **Machine learning frameworks:** PyTorch, Keras, TensorFlow, scikit-learn
-- **Miscellaneous:** Git, Github, Quarto, bash, Docker
+### Georgetown University  
+**M.S. in Data Science & Analytics**  
+Washington, D.C. · August 2024 – December 2025 · **GPA: 4.0**
 
 
-This site is a living portfolio where I document projects, experiments, and technical writeups.
+### Washington University in St. Louis  
+**B.S. in Chemical Engineering**  
+Minor in Energy Engineering  
+St. Louis, MO · August 2017 – May 2021 · **GPA: 3.98**  
+*Honors: Summa Cum Laude*
+
+
+## Experience
+
+### PricewaterhouseCoopers (PwC)
+**Associate**  
+August 2021 – August 2024
+
+**Intern**  
+July 2020

@@ -4,11 +4,9 @@ title: "Resume"
 
 ## Adam Stein
 
-📍 Washington D.C. 
+📍 Washington, D.C. 
 
 📧 adamhstein@gmail.com
-
-🔗 GitHub: https://github.com/adamhstein27  
 
 ---
 
@@ -20,9 +18,7 @@ title: "Resume"
 - *2024 - 2025*
 - *GPA: 4.0*
 
-**B.S. in Chemical Engineering** 
-
-*Minor in Energy Engineering* 
+**B.S. in Chemical Engineering** | *Minor in Energy Engineering* 
 
 - *Washington University in St. Louis*
 - *2017 - 2021*
@@ -47,6 +43,28 @@ title: "Resume"
 *May 2025 - Aug 2025*
 
 * Assisted incoming graduate students in mastering Python and R programming fundamentals through instruction, feedback, and one-on-one support in a required summer course
+
+---
+
+### Selected Projects
+
+**Vehicle Collisions Classifications Using Neural Networks**, Neural Networks & Advanced Deep Learning (DSAN 6600)
+
+* Processed 60,000+ frames extracted from 1,500 dashcam videos to classify collision vs. non-collision events using spatial and temporal features
+* Utilized YOLOv8 for spatial feature extraction and LSTM, GRU, and Transformer architectures for temporal sequence modeling
+* Optimized deep learning pipeline with PyTorch, improving model generalization and reducing training time through data augmentation and hyperparameter tuning
+
+**Predictive Modeling of Chronic Absenteeism in U.S. Public Schools**, Statistical Learning (DSAN 5300)
+
+* Collected and merged datasets from ~13,000 school districts covering demographic, financial, and attendance data
+* Engineered predictive features to classify districts into high, medium, and low chronic absenteeism risk levels
+* Implemented and compared models including Random Forests, Neural Networks, SVM, Logistic Regression, and LDA/QDA, achieving high accuracy in absenteeism risk prediction
+
+**Data-Driven Discovery of Patterns in Music**, Data Science and Analytics (DSAN 5000)
+
+* Collected and integrated data from the Spotify API to analyze patterns in music features, genres, and popularity
+* Applied unsupervised clustering to group songs based on acoustic attributes (tempo, energy, danceability), uncovering latent structure across genres
+* Built supervised regression and classification models to predict song popularity and genre, identifying key drivers of listener engagement
 
 ---
 

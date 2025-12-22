@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-# Projects
+# Georgetown University Projects
 
 Here are some selected data science and machine learning projects. Each project links to source code and, where available, a live site.
 
