@@ -13,9 +13,12 @@ website:
 
 format:
   html:
-    theme: mint
+    theme: 
+      light: cosmo
+      dark: darkly
     csl:  ./assets/nature.csl
     toc: true
+    css: styles.css
 
 
 
