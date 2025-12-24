@@ -32,6 +32,18 @@ Analyzed rental pricing and neighborhood-level patterns using statistical testin
 ---
 
 ::: {.card}
+### 💊 Analyzing Prescription Drug Use and Overdose Trends
+**Tech:** Python · Plotly · Altair · NetworkD3  
+
+Comprehensive analysis of the opioid crisis, focusing on historical, financial, and state-level dynamics in the United States
+
+- 🔗 **Live Site:** [View Project](https://gjl.georgetown.domains/5200-project/technical_report.html)
+- 💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/opioids-analysis)
+:::
+
+---
+
+::: {.card}
 ### 🏫 Predictive Modeling of Chronic Absenteeism in U.S. Public Schools
 **Tech:** Python · Feature Engineering · Classification  
 
@@ -80,6 +92,6 @@ Built a hybrid retrieval system that recommends off-the-beaten-path travel desti
 **Tech:** Python · NLP · Transformers  
 
 Analyzed linguistic patterns, topic dynamics, and virality drivers in conspiracy-focused online communities.
-
+- 🔗 **Live Site:** [View Project](https://gjl.georgetown.domains/6000-project/)
 - 💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/conspiracy-nlp)
 :::

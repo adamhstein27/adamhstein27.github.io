@@ -4,6 +4,12 @@
   --accent-light: #E6ECF5;
 }
 
+/* Improve readability */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 /* =========================
    Project cards
    ========================= */
@@ -47,6 +53,10 @@
   }
 }
 
+/* Navigation improvements */
+.navbar {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
 
 hr {
   border: none;

@@ -109,6 +109,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#data-driven-discovery-of-patterns-in-music" id="toc-data-driven-discovery-of-patterns-in-music" class="nav-link" data-scroll-target="#data-driven-discovery-of-patterns-in-music">🎧 Data-Driven Discovery of Patterns in Music</a></li>
   <li><a href="#statistical-patterns-of-airbnb-rentals-in-washington-d.c." id="toc-statistical-patterns-of-airbnb-rentals-in-washington-d.c." class="nav-link" data-scroll-target="#statistical-patterns-of-airbnb-rentals-in-washington-d.c.">🏙️ Statistical Patterns of Airbnb Rentals in Washington, D.C.</a></li>
+  <li><a href="#analyzing-prescription-drug-use-and-overdose-trends" id="toc-analyzing-prescription-drug-use-and-overdose-trends" class="nav-link" data-scroll-target="#analyzing-prescription-drug-use-and-overdose-trends">💊 Analyzing Prescription Drug Use and Overdose Trends</a></li>
   <li><a href="#predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools" id="toc-predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools" class="nav-link" data-scroll-target="#predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools">🏫 Predictive Modeling of Chronic Absenteeism in U.S. Public Schools</a></li>
   <li><a href="#vehicle-collision-classification-using-neural-networks" id="toc-vehicle-collision-classification-using-neural-networks" class="nav-link" data-scroll-target="#vehicle-collision-classification-using-neural-networks">🚗 Vehicle Collision Classification Using Neural Networks</a></li>
   <li><a href="#movie-directoractor-collaboration-analysis" id="toc-movie-directoractor-collaboration-analysis" class="nav-link" data-scroll-target="#movie-directoractor-collaboration-analysis">🎬 Movie Director–Actor Collaboration Analysis</a></li>
@@ -161,6 +162,16 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <hr>
+<section id="analyzing-prescription-drug-use-and-overdose-trends" class="level3 card">
+<h3 class="anchored" data-anchor-id="analyzing-prescription-drug-use-and-overdose-trends">💊 Analyzing Prescription Drug Use and Overdose Trends</h3>
+<p><strong>Tech:</strong> Python · Plotly · Altair · NetworkD3</p>
+<p>Comprehensive analysis of the opioid crisis, focusing on historical, financial, and state-level dynamics in the United States</p>
+<ul>
+<li>🔗 <strong>Live Site:</strong> <a href="https://gjl.georgetown.domains/5200-project/technical_report.html">View Project</a></li>
+<li>💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/opioids-analysis">GitHub Repo</a></li>
+</ul>
+</section>
+<hr>
 <section id="predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools" class="level3 card">
 <h3 class="anchored" data-anchor-id="predictive-modeling-of-chronic-absenteeism-in-u.s.-public-schools">🏫 Predictive Modeling of Chronic Absenteeism in U.S. Public Schools</h3>
 <p><strong>Tech:</strong> Python · Feature Engineering · Classification</p>
@@ -200,16 +211,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="conspiracy-subreddit-nlp-analysis" class="level3 card">
 <h3 class="anchored" data-anchor-id="conspiracy-subreddit-nlp-analysis">🧠 Conspiracy Subreddit NLP Analysis</h3>
 <p><strong>Tech:</strong> Python · NLP · Transformers</p>
-<p>Analyzed linguistic patterns, topic dynamics, and virality drivers in conspiracy-focused online communities.</p>
-<ul>
-<li>💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/conspiracy-nlp">GitHub Repo</a></li>
-</ul>
+<p>Analyzed linguistic patterns, topic dynamics, and virality drivers in conspiracy-focused online communities. - 🔗 <strong>Live Site:</strong> <a href="https://gjl.georgetown.domains/6000-project/">View Project</a> - 💻 <strong>Code:</strong> <a href="https://github.com/adamhstein27/conspiracy-nlp">GitHub Repo</a></p>
 </section>
 
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -441,6 +449,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
