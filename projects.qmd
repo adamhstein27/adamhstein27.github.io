@@ -92,6 +92,7 @@ Built a hybrid retrieval system that recommends off-the-beaten-path travel desti
 **Tech:** Python · NLP · Transformers  
 
 Analyzed linguistic patterns, topic dynamics, and virality drivers in conspiracy-focused online communities.
+
 - 🔗 **Live Site:** [View Project](https://gjl.georgetown.domains/6000-project/)
 - 💻 **Code:** [GitHub Repo](https://github.com/adamhstein27/conspiracy-nlp)
 :::
