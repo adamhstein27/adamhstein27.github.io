@@ -1,8 +1,6 @@
 ---
-title: "GU Projects"
+title: "Georgetown University Projects"
 ---
-
-# Georgetown University Projects
 
 Here are some selected data science and machine learning projects I completed while a Master's student at Georgetown University. Each project links to source code and, where available, a live site.
 

@@ -2,14 +2,12 @@
 title: "Personal Projects"
 ---
 
-# Personal Projects
-
 Here are personal projects I am working on/completed in my spare time. I use these projects to apply what I know, learn new skills, and explore topics that interest me. Each project links to source code and, where available, a live site.
 
 ---
 
 ::: {.card}
-### 🎧 ### Diabetes Risk Predictor 
+### 🩺 Diabetes Risk Predictor 
 **Tech:** Python · XGBoost · Streamlit · UV 
 
 Used XGBoost to predict probability an individual has diabetes based on health information. Dataset comes from a Kaggle competition which can be found [here](https://www.kaggle.com/competitions/playground-series-s5e12/overview). A live site where the user can enter their information and get a prediction was created using streamlit.
